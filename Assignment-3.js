@@ -1,4 +1,4 @@
-
+########### convert kilometerToMeter  ##########
 
 function kilometerToMeter(kilometers) {
     return kilometers * 1000;
@@ -6,7 +6,12 @@ function kilometerToMeter(kilometers) {
   console.log(kilometerToMeter(9));
 
 
-  function budgetCalculator(w,m,b){
+
+
+
+######### find the total amount of the products ########
+ 
+function budgetCalculator(w,m,b){
 
     
     var watch = w*50;
@@ -19,7 +24,7 @@ function kilometerToMeter(kilometers) {
 }
 console.log(budgetCalculator(2,1,4));
 
-
+####### find the total cost of the day #######
 function hotelCost(days){
     
     var totalAmount = 0;
@@ -38,6 +43,9 @@ function hotelCost(days){
     return totalAmount;
   }
 console.log(hotelCost(30));
+
+
+######## find the largest name from array ##########
 
 function megaFriend(names) {
     
